@@ -2,13 +2,7 @@
 
 ## Preparations
 
-Ensure your device has a vendor partition from Android 9 (newer versions will not work and Android 8 might work but any other older versions will not). If your device is A/B device (sargo and pro1 are A/B devices), it is necessary to have both slots on same Android version. So, if you upgraded Android to newer version than Android 9 (Pie), you have to downgrade Android first (flash Android 9 separately on both slots).
-
-Download the rootfs for your architecture and your device's adaptation package from the releases of this repository. You can also download devtools for the same architecture if you wish so. Devtools may come handy if something goes wrong during installation. Also, it is recommended to ensure that you have the latest fastboot and adb versions. You will also need to have a recovery image (TWRP is recommended) for your phone.
-
-After this, reboot your phone to fastboot (by pressing power and volume down buttons at the same time for a while) and connect the phone to your computer. Then, run following commands on your computer:
-
-* `fastboot boot /path/to/recovery.img`
+Ensure your device has a vendor partition from Android 10 (newer versions only *might* work :( ) Try flashing a Android 10 rom before trying to install.
 
 ## Installation
 
